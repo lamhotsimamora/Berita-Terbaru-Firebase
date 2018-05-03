@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Berita Terbaru</title>
+  <meta name="og:image"       content="" />
+  <meta property="og:image"       content="" />
+  <link rel="shortcut icon" type="image/png" href="icon.png"/>
+  <meta name="ROBOTS"       content="index"/>
+  <meta name="Author"       content="@lamhotsimamora" />
+  <meta name="copyright"      content="Copyright@2018 | All Right Reserved" />
+  <meta property="og:title"     content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:name"        content="" />
+  <meta name="language"         content="Indonesian, English" />
+  <meta name="distribution"       content="Global" />
+  <meta name="rating"         content="General" />
+  <meta name="expires"        content="1800" />
+  <meta name="theme-color"        content="#E43539"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.css">
+  <script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
+</head>
+<body>
+  
+    <div class="ui container">
+       <div class="ui secondary pointing menu">
+        <a onclick="goIndex()" class="item active">
+          <i class="home icon"> </i>
+        </a>
+          <div class="ui input">
+            <input type="text" placeholder="Cari artikel..." id="t_search" onkeypress="enterSearch(event);">
+          </div>
+        <div class="right menu">
+          <a onclick="goAbout()" class="ui item">
+            About
+          </a>
+        </div>
+        <br>
+      </div>
+
+         <div class="ui container" id="_berita">
+            
+              
+         </div>
+          
+          <br>
+          <div id="b_goup" class="ui container" style="display: none">
+               <center><button class="ui brown basic button" onclick="goUp();">Go Up</button></center>
+          </div>
+          <br>
+          <br>
+    </div>
+
+
+    
+   <!--   -->
+
+</body>
+<script type="text/javascript" src="route.js"></script>
+</html>
